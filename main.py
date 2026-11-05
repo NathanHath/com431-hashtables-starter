@@ -1,4 +1,5 @@
 from hash_table import HashTable
-
-(Q10201, Andrea).put()
+table = HashTable (17)
+table.put("Q10201", "Andrea")
+print(table.get("Q10202"))
 
