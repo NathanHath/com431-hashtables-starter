@@ -17,6 +17,7 @@ class HashTable:
         # 70%17 = 2 (remainder of 2)
 
         bucket_index = hash_code % self.num_buckets
+        print(bucket_index)
         print(f"hash code is {hash_code}, nbuckets = {self.num_buckets}")
         self.buckets[bucket_index].add(key, value)
 
